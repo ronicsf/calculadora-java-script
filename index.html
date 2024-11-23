@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Calculadora</title>
+</head>
+<body>
+        <div>
+            <input class="display" type="text">
+            <button onclick="cleanInput()" class="gray-button">AC</button>
+            <button onclick="getCaracter('+/-')" class="gray-button">+/-</button>
+            <button onclick="getCaracter('/')" class="blue-button">/</button>
+            <button onclick="getCaracter('*')" class="blue-button" >*</button>
+            <button onclick="getCaracter('7')" class="black-button" >7</button>
+            <button onclick="getCaracter('8')" class="black-button" >8</button>
+            <button onclick="getCaracter('9')" class="black-button " >9</button>
+            <button onclick="getCaracter('-')" class="blue-button">-</button>
+            <button onclick="getCaracter('4')" class="black-button">4</button>
+            <button onclick="getCaracter('5')" class="black-button">5</button>
+            <button onclick="getCaracter('6')" class="black-button">6</button>
+            <button onclick="getCaracter('+')" class="blue-button">+</button>
+            <button onclick="getCaracter('1')" class="black-button">1</button>
+            <button onclick="getCaracter('2')" class="black-button">2</button>
+            <button onclick="getCaracter('3')" class="black-button">3</button>
+            <button onclick="calcular('=')" class="equal">=</button>
+            <button onclick="getCaracter('0')" class="black-button zero">0</button>
+            <button onclick="getCaracter('.')" class="black-button">.</button>
+        </div>
+        <button  class="btn-change" onclick="apagueLuz()">apague a luz</button>
+</body>
+<script src="script.js"></script>
+</html>
